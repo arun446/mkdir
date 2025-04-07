@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Link Sharing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: #fff;
+      padding: 2rem;
+      margin-top: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 600px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .link-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .link-list li {
+      background: #f1f1f1;
+      margin: 10px 0;
+      padding: 10px 15px;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    .link-list li:hover {
+      background: #e0e0e0;
+    }
+
+    .link-list a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    .link-list a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 2rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Favorite Links</h1>
+    <ul class="link-list">
+      <li><a href="https://www.google.com" target="_blank">Google</a></li>
+      <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+      <li><a href="https://www.stackoverflow.com" target="_blank">Stack Overflow</a></li>
+      <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+    </ul>
+    <div class="footer">© 2025 LinkShare</div>
+  </div>
+</body>
+</html>
